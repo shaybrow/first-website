@@ -44,24 +44,28 @@ li {
 img{
 
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+   
+
 }
 a{
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+   
 }
 #first{
     height: 300px;
     width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+
 
 }
 
 #second{
     height: 300px;
     width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+
+}
+#centered{
+    text-align: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
