@@ -11,3 +11,9 @@ main {
 color: blanchedalmond;
 background-color: black;
 }
+
+a {
+
+    max-width: 600 px;
+    max-height: 400 px;
+}
