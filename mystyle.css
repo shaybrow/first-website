@@ -1,19 +1,42 @@
-header {
-    background-color: (magenta);
-    color: black
-}
+
+main {
+    color: grey;
+    background-color: black;
+    }
 
 nav{
     background-color: gray;
-    color: white;
+
+    opacity: 0.7;
 }
-main {
-color: blanchedalmond;
-background-color: black;
+header{
+    background-color: rgb(8, 62, 83);
 }
 
-a {
+img {
 
-    max-width: 600 px;
-    max-height: 400 px;
+}
+
+body {
+    background-color: rgb(rgb(8, 62, 83), green, blue);
+}
+
+h1 {
+        text-align: center;
+        color: rgb(red, rgb(185, 248, 185), blue)
+}
+ul{
+    text-align: center;
+}
+li {
+    display: inline;
+    border: black, 10 px, solid;
+    padding: 100 px;
+    background-color: blanchedalmond;
+    color: rgb(red, green, rgb(36, 7, 59))
+    margin: 200 px;
+
+}
+#image1 {
+    height: 10 px;
 }
