@@ -1,8 +1,13 @@
 h1 {
     background-color: (magenta);
+    color: black
 }
 
-body {
+nav{
+    background-color: gray;
+    color: white;
+}
+main {
 color: blanchedalmond;
 background-color: black;
 }
