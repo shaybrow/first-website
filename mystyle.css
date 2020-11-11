@@ -43,7 +43,7 @@ li {
 }
 img{
 
-    height: 300px;
+    
    
 
 }
@@ -54,18 +54,21 @@ a{
 #first{
     height: 300px;
     width: 600px;
-
+    padding: 150px;
+    margin-right: auto;
 
 }
 
 #second{
     height: 300px;
     width: 600px;
-
+    padding: 150px;
+    margin-left: auto;
 }
 #centered{
-    text-align: center;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    text-align: center;
+   
+  
+  
 }
