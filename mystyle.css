@@ -1,42 +1,67 @@
+body {
+    background-color: rgb(8, 62, 83)
+}
 
 main {
     color: grey;
     background-color: black;
     }
 
+
+header{
+    background-color: rgb(8, 62, 83);
+}
+
+
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        color: rgb(82, 121, 82)
+}
 nav{
     background-color: gray;
 
     opacity: 0.7;
 }
-header{
-    background-color: rgb(8, 62, 83);
-}
-
-img {
-
-}
-
-body {
-    background-color: rgb(rgb(8, 62, 83), green, blue);
-}
-
-h1 {
-        text-align: center;
-        color: rgb(red, rgb(185, 248, 185), blue)
-}
 ul{
     text-align: center;
+    padding: 25px;
 }
 li {
+    border: black, 10px, solid;
+    padding: 30px;
+    margin: 25px;
     display: inline;
-    border: black, 10 px, solid;
-    padding: 100 px;
+    opacity: 0.7;
+    
+    
     background-color: blanchedalmond;
-    color: rgb(red, green, rgb(36, 7, 59))
-    margin: 200 px;
+    color: rgb(36, 7, 59))
+   
 
 }
-#image1 {
-    height: 10 px;
+img{
+
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    margin-left: auto;
+    margin-right: auto;
+}
+#first{
+    height: 300px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#second{
+    height: 300px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
