@@ -3,42 +3,76 @@
 
 function goToSpace(){
 let go = prompt("Where do you wanna go?");
-let count = 1;
-
-if (go == 'Space!'){
-    document.write('<h3>' + 'Spaaaacccceeeee!' + '</h3>');
-    document.write('<h3>' + 'It took you ' + count + ' try to get to Space!' + '</h3>');
-} else {
+let count = 0;
+while (go != 'Space!'){
+if (count === 1){
     go = prompt("Space?")
-    if (go == 'Space!'){
-        count ++; 
-        document.write('<h3>' + 'Spaaaacccceeeee!' + '</h3>');
-        document.write('<h3>' + 'It took you ' + count + ' tries to get to Space!' + '</h3>');
-    }
-    else{
-        count ++; 
+} 
+    
+    if (count === 2){
         go = prompt("I wanna go to space! Where do you wanna go?")
-    if (go == 'Space!'){
-        count ++;
-        document.write('<h3>' + 'Spaaaacccceeeee!' + '</h3>');
-        document.write('<h3>' + 'It took you ' + count + ' tries to get to Space!' + '</h3>');}
-    else{
-        count ++;
-    go = prompt("Please type 'Space!'")
-    if (go == 'Space!'){
-        count ++;
-        document.write('<h3>' + 'Spaaaacccceeeee!' + '</h3>');
-    document.write('<h3>' + 'It took you ' + count + ' tries to get to Space!' + '</h3>');}
-    else{document.write('<h3>' + 'Sigh' + '</h3>');
+    }
+    
+    if (count === 3){
+        go = prompt("Please type 'Space!'")
+    }
+    
+    if (count === 4){
+        go = prompt("Sigh'");
+        
+    }
+    if (count >= 5){
+        go = prompt("Space!");
+        
+    }
     count ++;
-    document.write('<h3>' + 'It took you ' + count + ' tries to get to Space and you still did not make it!' + '</h3>');
-}
-    }
-    }
-}
+    
+
+    
+    
 }
 
 
+alert('Spaaaacccceeeee!');
+
+if (count == 0){document.write('<h3>' + 'It took you 1 try to get to Space!' + '</h3>');
+}
+else {
+    document.write('<h3>' + 'It took you ' + count + ' tries to get to Space!' + '</h3>');
+}
+//document.write('<h3>' + 'It took you ' + count + ' tries to get to Space and you still did not make it!' + '</h3>');
+}
+
+function image(){
+    let img = document.createElement("IMG");
+    img.setAttribute("src", "https://mars.nasa.gov/system/content_pages/main_images/418_marsglobe.jpg");
+    img.setAttribute("width", "400")
+    img.setAttribute("height", "400")
+    document.body.appendChild(img);
+
+
+}
+
+function imagePrinter(){
+    let planet = prompt("How many times do you want to visit Mars?");
+    let j = 1;
+
+    while (j <= planet){
+        image();
+       j++;
+    }
+
+}
+function imagePrinter2(){
+    let ship = prompt("How many ships are in your fleet?");
+    let i = 1;
+
+    while (i <= ship){
+        document.write('<img src="https://grid-paint.appspot.com/images/png/5946531978936320.png" width = "300" height ="100">');
+       i++;
+    }
+
+}
 
 function time(){
     let today = new Date();
@@ -62,7 +96,7 @@ function howFast(){
         document.write('<h3>' + "You're gonna go faster than light!!!" +'</h3>')
     }
     else {
-    document.write('<h3>' + "You're gonna go " + speed + "!!!" +'</h3>')
+    document.write('<h3>' + "You're gonna go kinda fast!" +'</h3>')
     }
     }
 
@@ -84,4 +118,6 @@ function howFast(){
             console.log(numberOne)
 
         }
+
+        
         plusOne(5);
