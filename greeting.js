@@ -1,10 +1,11 @@
 'use strict'
 
+function time(){
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
 if (hourNow > 18) {
-    greeting = 'Good evening!'
+    greeting = 'Good evening!';
 } else if ( hourNow > 12 ){
    greeting = 'Good afternoon!';
 } else if (hour > 0) {
@@ -12,4 +13,5 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome!';
 }
-document.write('<h3>' + greeting + '</h3>')
+document.write('<h3>' + greeting + '</h3>');
+}
