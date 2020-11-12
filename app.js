@@ -69,6 +69,7 @@ function imagePrinter2(){
 
     while (i <= ship){
         document.write('<img src="https://grid-paint.appspot.com/images/png/5946531978936320.png" width = "300" height ="100">');
+        document.write('<h3>' + i + '</h3>')
        i++;
     }
 
