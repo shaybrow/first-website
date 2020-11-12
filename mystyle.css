@@ -19,6 +19,7 @@ h1 {
         text-align: center;
         color: rgb(82, 121, 82)
 }
+
 nav{
     background-color: gray;
 
@@ -41,12 +42,7 @@ li {
    
 
 }
-img{
 
-    
-   
-
-}
 a{
     text-align: center;
    
@@ -68,7 +64,7 @@ a{
 #centered{
     display: block;
     text-align: center;
-   
-  
-  
+}
+#onclick{
+    color:grey
 }
